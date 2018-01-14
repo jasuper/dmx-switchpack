@@ -1,0 +1,23 @@
+on top of the arduino mega is the DMX SHIELD CTC-DRA-10-R2 
+(make sure you pressed it in well enough to make sure all pins make good contact)
+
+because it is mechanicaly impossible to stack the LCD shield with buttons on top of it, the wires are extended
+PIN1 TO PIN1
+PIN2 TO PIN2
+PIN3 TO PIN3.....
+5V TO 5V
+GND TO GND
+
+from Arduino Mego to the relay board: 
+GND from powersupply 5V GND 
+5V from powersupply to VCC from relay board
+PIN 22 TO IN1
+PIN 24 TO IN2
+PIN 26 TO IN3
+PIN 28 TO IN4
+PIN 30 TO IN5
+PIN 32 TO IN6
+PIN 34 TO IN7
+PIN 36 TO IN8
+
+connect 5VDC powersupply to the arduino mega.
